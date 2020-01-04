@@ -12,13 +12,16 @@ const ListItem = styled.li`
   justify-content: space-between;
 `;
 
+const Label = styled.span`
+  font-weight: bold;
+`;
 
 const List = ({items}) => {
   return (
     <ListWrapper>
       {items.map(item =>
         <ListItem key={item.label}>
-          <strong>{item.label}:</strong>{item.value}</ListItem>)}
+          <Label>{item.label}:</Label>{item.value}</ListItem>)}
     </ListWrapper>
   );
 };
