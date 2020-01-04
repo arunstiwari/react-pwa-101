@@ -33,3 +33,10 @@
 ### 9. Now stop the serve process and still you can see the application 
 
 ### 10. Refactor the app code and divide into two components Header and Link
+
+### 11. We are going to display the public information from github profile
+        curl 'https://api.github.com/users/username'
+        For username we can use octocat
+        
+### 12. To display the profile information, let us create the Profile container in src/containers/profile folder
+
