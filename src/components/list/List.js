@@ -16,7 +16,9 @@ const ListItem = styled.li`
 const List = ({items}) => {
   return (
     <ListWrapper>
-      {items.map(item => <ListItem key={item.label}><strong>{item.label}:</strong>{item.value}</ListItem>)}
+      {items.map(item =>
+        <ListItem key={item.label}>
+          <strong>{item.label}:</strong>{item.value}</ListItem>)}
     </ListWrapper>
   );
 };
