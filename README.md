@@ -31,3 +31,5 @@
 ### 8. Further look at the Cache Storage section
 
 ### 9. Now stop the serve process and still you can see the application 
+
+### 10. Refactor the app code and divide into two components Header and Link
