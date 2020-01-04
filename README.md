@@ -68,3 +68,10 @@
 ### 15. Now we can delete the Link.css file
 
 ### 16. Similarly we can refactor other component and replace the css class with styled-components
+
+### 17. There is still one css file index.css used in index.js file that contains the style for body element
+        Now to replace this css file we can use the createGlobalStyle function from styled-components 
+        
+        1. We can create global styles inside the App component and paste the CSS styling for the body element inside it
+        2. This component needs to be at the same hierarchy as the AppWrapper component
+        
