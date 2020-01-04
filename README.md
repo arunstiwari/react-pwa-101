@@ -39,4 +39,7 @@
         For username we can use octocat
         
 ### 12. To display the profile information, let us create the Profile container in src/containers/profile folder
-
+        1. Add implementation of Profile container
+        2. Add lifecycle method to fetch the github profile information
+        3. Write basic logic to display the profile information
+        4. Refactor the code to push the logic of display in List component
