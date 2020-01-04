@@ -43,3 +43,28 @@
         2. Add lifecycle method to fetch the github profile information
         3. Write basic logic to display the profile information
         4. Refactor the code to push the logic of display in List component
+
+### 13. Styling the react component with styled-components
+        npm i styled-components
+        1. Styled components uses the CSS-in-JS feature which allows us to write CSS in JavaScript to create components
+        
+### 14. Let us refactor our Link component and try to get rid of Link.css and replace it with styled components
+           - import './Link.css';
+           + import styled from 'styled-components';
+            
+           + const InnerLink = styled.a`
+           +   color: #61dafb;
+           + `;
+
+            
+            <InnerLink
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {linkTitle}
+            </InnerLink>
+
+### 15. Now we can delete the Link.css file
+
+### 16. Similarly we can refactor other component and replace the css class with styled-components
