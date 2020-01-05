@@ -74,4 +74,14 @@
         
         1. We can create global styles inside the App component and paste the CSS styling for the body element inside it
         2. This component needs to be at the same hierarchy as the AppWrapper component
+       
+### 18. Load the repositories list in the Profile
+        1. Load the repository list from the API endpoint and add it to state in Profile component
+        2. Add the repositories state in Profile component
+        3. Add the logic to fetch the repositories from the url       
+        4. Refactor the List component to include the title as runtime parameter to display the title of the section
         
+### 19. Now as we have enabled the project to be setup as PWA, we should be able to see a cached version 
+        npm run build
+        serve -s build
+            
